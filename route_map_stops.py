@@ -9,15 +9,7 @@ Created on Sat Mar 30 21:33:52 2019
 
 import gpxpy
 import matplotlib.pyplot as plt
-import datetime
-from geopy import distance
-from math import sqrt, floor
-import numpy as np
 import pandas as pd
-import plotly.plotly as py
-import plotly.graph_objs as go
-import haversine
-
 gpx_file = open('route1.gpx', 'r')
 gpx = gpxpy.parse(gpx_file)
 len(gpx.tracks)
